@@ -5,8 +5,9 @@ Gem::Specification.new do |s|
   s.description       = ""
   s.author            = "Damian Janowski"
   s.email             = "damian.janowski@gmail.com"
+  s.rubyforge_project = "seleniumrc"
 
-  s.files = ["lib/selenium/rc_server.rb", "lib/selenium_rc_server.rb", "test/rc_server_test.rb", "vendor/selenium-server.jar"]
+  s.files = ["LICENSE", "lib/selenium/rc_server.rb", "test/rc_server_test.rb", "vendor/selenium-server.jar"]
 
   s.add_dependency("selenium-client", ">= 1.2.16")
 end
