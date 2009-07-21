@@ -1,0 +1,20 @@
+Gem::Specification.new do |s|
+  s.name              = "selenium-rc"
+  s.version           = "0.0.1"
+  s.summary           = "Selenium RC Server"
+  s.description       = ""
+  s.author            = "Damian Janowski"
+  s.email             = "damian.janowski@gmail.com"
+
+  s.files = <%= Dir[
+    "LICENSE",
+    "README*",
+    "Rakefile",
+    "Thorfile",
+    "lib/**/*.rb",
+    "test/**/*.*",
+    "vendor/*.jar"
+  ].inspect %>
+
+  s.add_dependency("selenium-client", ">= 1.2.16")
+end
